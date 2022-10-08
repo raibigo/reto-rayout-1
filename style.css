@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color:aliceblue
+}
+
+.nav-logo, .nav, .nav-elements{
+    display: inline-block;
+    margin: 5px;
+}
+
+.nav {
+    width: 98vw;
+    background-color: cornsilk;
+    font-size: 2rem;
+}
+
+.nav-logo p {
+    border: 10px;
+    padding: 20px;
+}
+
+.nav-elements {
+    position: absolute;
+    right: 0;
+    border: 10px;
+    padding: 10px;
+}
+
+.list-item a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-elements li {
+    list-style: none;
+    display: inline-block;
+}
+
+.whisky__cream__types {
+    height: 100vh;
+    width: 20vw;
+    background-color: cadetblue;
+    display: block;
+}
+
+.wct-item {
+    background-color: cornflowerblue;
+    border-radius: 7px;
+    margin: 12px;
+    height: 23vh;
+    width: 18vw;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.192);
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+}
