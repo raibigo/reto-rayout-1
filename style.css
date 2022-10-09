@@ -9,12 +9,12 @@ html {
     background-color:aliceblue
 }
 
-.nav-logo, .nav, .nav-elements{
-    display: inline-block;
-    margin: 5px;
+.header, .nav{
+    display: flex;
+    flex-direction: row;
 }
 
-.nav {
+.nav {  
     width: 98vw;
     background-color: cornsilk;
     font-size: 2rem;
