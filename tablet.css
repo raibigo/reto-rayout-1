@@ -1,0 +1,43 @@
+.header, .nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-elements {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    border: 10px;
+    padding: 10px;
+}
+
+.nav-logo p {
+    display: flex;
+    border: 10px;
+    padding: 20px;
+}
+
+.whisky__cream__types {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 300px;
+    background-color: cadetblue;
+}
+
+.wct-item {
+    background-color: cornflowerblue;
+    display: block;
+    border-radius: 7px;
+    margin: 8px;
+    height: 20vh;
+    width: 20vw;
+}
+
+.content p {
+    font-size: 2rem;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+}
