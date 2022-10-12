@@ -11,7 +11,8 @@ html {
 
 .header, .nav{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .nav {  
@@ -21,13 +22,15 @@ html {
 }
 
 .nav-logo p {
+    display: flex;
+    justify-content: center ;
     border: 10px;
     padding: 20px;
 }
 
 .nav-elements {
-    position: absolute;
-    right: 0;
+    display: flex;
+    justify-content: center;
     border: 10px;
     padding: 10px;
 }
@@ -44,18 +47,22 @@ html {
 }
 
 .whisky__cream__types {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
     height: 100vh;
-    width: 20vw;
+    width: 100;
     background-color: cadetblue;
-    display: block;
 }
 
 .wct-item {
     background-color: cornflowerblue;
     border-radius: 7px;
-    margin: 12px;
-    height: 23vh;
-    width: 18vw;
+    margin: 10px;
+    height: 35vh;
+    width: 40vw;
 }
 
 .main {
@@ -64,7 +71,9 @@ html {
 }
 
 .content {
-    position: absolute;
-    left: 20vw;
-    width: 80vw;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.192) ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
 }
